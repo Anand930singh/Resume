@@ -1,0 +1,52 @@
+.specsContain{
+    color: white;
+    height:100vh;
+    display: grid;
+    grid-template-columns: 17% 83%;
+}
+
+.details{
+    height:80%;
+    display: flex;
+    align-items: center;
+}
+
+.heading{
+    color:rgb(17, 198, 177);
+    border: 1px solid white;
+    border-radius: 35px;
+    padding:0.2rem 1rem;
+    font-size: 3rem;
+    font-weight:700;
+    width:auto;
+}
+
+.headExplain{
+    margin-top: 2rem;
+    color:white;
+    margin-left:3rem;
+    font-size:2rem;
+    font-weight: 500;
+    width: 50vw;
+}
+.branch{
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    height: 100%;
+}
+.branchLine{
+    margin-top:4rem;
+}
+
+.fade-in {
+    opacity: 1;
+    transition: opacity 3s ease-in-out;
+  }
+  
+  .fade-out {
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
+  }
+  
+  

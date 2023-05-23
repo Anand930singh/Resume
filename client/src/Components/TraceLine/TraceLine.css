@@ -1,0 +1,24 @@
+@keyframes traceLineAnimation {
+    0% {
+      height: 0;
+    }
+    100% {
+      height: 90%;
+    }
+  }
+  
+  .trace-line {
+    position: relative;
+    height: 90%;
+    width: 5px;
+    margin-left: 10rem;
+    margin-right: 0.5rem;
+    opacity: 1;
+    transition: opacity 3s ease-in-out;
+  }
+  
+  .trace-line.animate {
+    animation: traceLineAnimation 3s ease-in-out forwards;
+    opacity: 1;
+  }
+  

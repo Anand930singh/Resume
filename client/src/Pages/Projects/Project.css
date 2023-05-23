@@ -1,0 +1,5 @@
+.allProjectCards{
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(2, 0, 15);
+}
